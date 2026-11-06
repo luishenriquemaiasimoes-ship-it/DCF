@@ -14,8 +14,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lei15270.dividend_withholding.monthly_threshold@pending
     key: br.tax.lei15270.dividend_withholding.monthly_threshold
     jurisdiction: BR
@@ -30,8 +30,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lei15270.dividend_withholding.effective_date@pending
     key: br.tax.lei15270.dividend_withholding.effective_date
     jurisdiction: BR
@@ -46,8 +46,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lei15270.dividend_withholding.non_resident_rate@pending
     key: br.tax.lei15270.dividend_withholding.non_resident_rate
     jurisdiction: BR
@@ -62,8 +62,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lei15270.minimum_tax_high_income.schedule@pending
     key: br.tax.lei15270.minimum_tax_high_income.schedule
     jurisdiction: BR
@@ -78,8 +78,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lei15270.jcp.changes@pending
     key: br.tax.lei15270.jcp.changes
     jurisdiction: BR
@@ -94,5 +94,5 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."

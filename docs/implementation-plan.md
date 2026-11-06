@@ -59,5 +59,5 @@ Unchanged from spec 21, with these additions from Sections 25–34:
 
 1. **float64 in the engine** (for Excel parity) vs Decimal. Recommendation: float64.
 2. **Phase 1 fixtures synthetic** rather than real companies (real ones need Phase 2 ingestion to meet spec 32's "real and sourced"). Recommendation: synthetic now, real in Phase 2.
-3. **Network**: allow `www.planalto.gov.br` (and optionally `www.in.gov.br`) so legal parameters can be verified from official text.
+3. **Legal sources**: the hosts are now allowed (personal environment "DCF"), but the servers drop connections from this container. Retry later, or supply the official texts manually (`parameter-store.md` §6).
 4. **Default branch**: `main` exists on the remote with the spec, but the repository's default branch is still `claude/spec-addendum-25-34`. Switching it is a GitHub repository setting (Settings → General → Default branch) that this session cannot change.

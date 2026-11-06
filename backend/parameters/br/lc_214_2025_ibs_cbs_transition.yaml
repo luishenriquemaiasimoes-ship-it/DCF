@@ -17,8 +17,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.ibs_rate@2026
     key: br.tax.lc214.ibs_rate
     jurisdiction: BR
@@ -35,8 +35,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.pis_cofins_status@2026
     key: br.tax.lc214.pis_cofins_status
     jurisdiction: BR
@@ -53,8 +53,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.icms_iss_reduction@2026
     key: br.tax.lc214.icms_iss_reduction
     jurisdiction: BR
@@ -71,8 +71,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.cbs_rate@2027
     key: br.tax.lc214.cbs_rate
     jurisdiction: BR
@@ -89,8 +89,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.ibs_rate@2027
     key: br.tax.lc214.ibs_rate
     jurisdiction: BR
@@ -107,8 +107,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.pis_cofins_status@2027
     key: br.tax.lc214.pis_cofins_status
     jurisdiction: BR
@@ -125,8 +125,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.icms_iss_reduction@2027
     key: br.tax.lc214.icms_iss_reduction
     jurisdiction: BR
@@ -143,8 +143,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.cbs_rate@2028
     key: br.tax.lc214.cbs_rate
     jurisdiction: BR
@@ -161,8 +161,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.ibs_rate@2028
     key: br.tax.lc214.ibs_rate
     jurisdiction: BR
@@ -179,8 +179,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.pis_cofins_status@2028
     key: br.tax.lc214.pis_cofins_status
     jurisdiction: BR
@@ -197,8 +197,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.icms_iss_reduction@2028
     key: br.tax.lc214.icms_iss_reduction
     jurisdiction: BR
@@ -215,8 +215,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.cbs_rate@2029
     key: br.tax.lc214.cbs_rate
     jurisdiction: BR
@@ -233,8 +233,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.ibs_rate@2029
     key: br.tax.lc214.ibs_rate
     jurisdiction: BR
@@ -251,8 +251,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.pis_cofins_status@2029
     key: br.tax.lc214.pis_cofins_status
     jurisdiction: BR
@@ -269,8 +269,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.icms_iss_reduction@2029
     key: br.tax.lc214.icms_iss_reduction
     jurisdiction: BR
@@ -287,8 +287,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.cbs_rate@2030
     key: br.tax.lc214.cbs_rate
     jurisdiction: BR
@@ -305,8 +305,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.ibs_rate@2030
     key: br.tax.lc214.ibs_rate
     jurisdiction: BR
@@ -323,8 +323,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.pis_cofins_status@2030
     key: br.tax.lc214.pis_cofins_status
     jurisdiction: BR
@@ -341,8 +341,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.icms_iss_reduction@2030
     key: br.tax.lc214.icms_iss_reduction
     jurisdiction: BR
@@ -359,8 +359,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.cbs_rate@2031
     key: br.tax.lc214.cbs_rate
     jurisdiction: BR
@@ -377,8 +377,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.ibs_rate@2031
     key: br.tax.lc214.ibs_rate
     jurisdiction: BR
@@ -395,8 +395,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.pis_cofins_status@2031
     key: br.tax.lc214.pis_cofins_status
     jurisdiction: BR
@@ -413,8 +413,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.icms_iss_reduction@2031
     key: br.tax.lc214.icms_iss_reduction
     jurisdiction: BR
@@ -431,8 +431,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.cbs_rate@2032
     key: br.tax.lc214.cbs_rate
     jurisdiction: BR
@@ -449,8 +449,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.ibs_rate@2032
     key: br.tax.lc214.ibs_rate
     jurisdiction: BR
@@ -467,8 +467,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.pis_cofins_status@2032
     key: br.tax.lc214.pis_cofins_status
     jurisdiction: BR
@@ -485,8 +485,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.icms_iss_reduction@2032
     key: br.tax.lc214.icms_iss_reduction
     jurisdiction: BR
@@ -503,8 +503,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.cbs_rate@2033
     key: br.tax.lc214.cbs_rate
     jurisdiction: BR
@@ -521,8 +521,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.ibs_rate@2033
     key: br.tax.lc214.ibs_rate
     jurisdiction: BR
@@ -539,8 +539,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.pis_cofins_status@2033
     key: br.tax.lc214.pis_cofins_status
     jurisdiction: BR
@@ -557,8 +557,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.tax.lc214.icms_iss_reduction@2033
     key: br.tax.lc214.icms_iss_reduction
     jurisdiction: BR
@@ -575,5 +575,5 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."

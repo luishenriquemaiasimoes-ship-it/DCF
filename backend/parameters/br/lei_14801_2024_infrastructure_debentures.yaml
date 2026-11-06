@@ -19,8 +19,8 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."
   - id: br.debt.lei14801.eligibility@pending
     key: br.debt.lei14801.eligibility
     jurisdiction: BR
@@ -35,5 +35,5 @@ records:
         issuer: "Presidência da República — Planalto"
         is_official: true
         retrieval_status: failed
-        attempted_at: "2026-11-06T12:54:41Z"
-        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+        attempted_at: "2026-11-06T13:02:58Z"
+        retrieval_note: "2026-11-06T12:54Z: host refused by the session network proxy. 2026-11-06T13:02Z: after allowlisting, server returned an empty reply (connection dropped; possibly geo-blocking or proxy propagation). Not retrieved."

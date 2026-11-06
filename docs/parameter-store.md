@@ -50,9 +50,13 @@ All records are `needs_verification` with `value: null`.
 
 | File | Keys | Source | Retrieval |
 |---|---|---|---|
-| `br/lei_14801_2024_infrastructure_debentures.yaml` | issuer interest treatment, eligibility | planalto.gov.br/.../l14801.htm | **failed**: host blocked by the session network proxy |
-| `br/lei_15270_2025_dividends_jcp.yaml` | resident withholding rate, monthly threshold, effective date/transition, non-resident rate, minimum-tax schedule, JCP changes | planalto.gov.br/.../l15270.htm | **failed**: same |
-| `br/lc_214_2025_ibs_cbs_transition.yaml` | CBS rate, IBS rate, PIS/COFINS status, ICMS/ISS reduction: one record per year 2026–2033 | planalto.gov.br/.../lcp214.htm | **failed**: same |
+| `br/lei_14801_2024_infrastructure_debentures.yaml` | issuer interest treatment, eligibility | planalto.gov.br/.../l14801.htm | **failed** (see below) |
+| `br/lei_15270_2025_dividends_jcp.yaml` | resident withholding rate, monthly threshold, effective date/transition, non-resident rate, minimum-tax schedule, JCP changes | planalto.gov.br/.../l15270.htm | **failed** (see below) |
+| `br/lc_214_2025_ibs_cbs_transition.yaml` | CBS rate, IBS rate, PIS/COFINS status, ICMS/ISS reduction: one record per year 2026–2033 | planalto.gov.br/.../lcp214.htm | **failed** (see below) |
 | `br/corporate_income_tax.yaml` | IRPJ base, surcharge rate, surcharge threshold, CSLL, loss-offset limit, combined marginal rate | Planalto consolidated laws | not attempted. Spec figures kept in `spec_reference` only. |
 
-To unblock: allow `www.planalto.gov.br` in the environment's network settings, then run verification. `legislacao.presidencia.gov.br` is blocked too. The Diário Oficial (`www.in.gov.br`) was not tried.
+Retrieval attempts:
+- 12:54Z: the session network proxy refused the host.
+- 13:02Z: the hosts `www.planalto.gov.br`, `legislacao.presidencia.gov.br` and `www.in.gov.br` were added to a new personal environment "DCF", which this session now uses. The servers then **dropped the connection with no response** (planalto: empty reply; in.gov.br: HTTP/2 protocol error). This may be geo-blocking of non-Brazilian IPs or the proxy not yet applying the change (it can take up to an hour).
+
+Next step: retry from a later session on the "DCF" environment. If the hosts still drop connections, a person can download the official texts and commit them under `backend/parameters/br/sources/`. The SHA-256 of each committed file then serves as `content_sha256`.
