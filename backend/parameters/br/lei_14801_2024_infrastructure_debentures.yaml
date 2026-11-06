@@ -1,0 +1,39 @@
+# Lei 14.801/2024 — infrastructure debentures (issuer-side benefit). Spec 26.4.
+records:
+  - id: br.debt.lei14801.issuer_interest_treatment@pending
+    key: br.debt.lei14801.issuer_interest_treatment
+    jurisdiction: BR
+    description: "Issuer-side tax treatment of interest on infrastructure debentures under Lei 14.801/2024 (exclusion/additional deduction from IRPJ/CSLL base). Affects after-tax cost of debt and tax shield."
+    value_type: rate
+    value: null
+    status: needs_verification
+    spec_reference: "Spec 26.4 (incentivized debentures; later regime changes to Lei 12.431/2011)"
+    open_questions:
+      - "Exact deduction mechanism and percentage, and the article/paragraph that sets it."
+      - "Eligibility: priority projects, ministerial authorization, minimum term/average maturity, use of proceeds."
+      - "Whether an issuer may combine this with Lei 12.431 investor-side benefits for the same issuance."
+      - "Effective date and any sunset."
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14801.htm"
+        title: "Lei nº 14.801/2024"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.debt.lei14801.eligibility@pending
+    key: br.debt.lei14801.eligibility
+    jurisdiction: BR
+    description: "Eligibility conditions for Lei 14.801/2024 debentures (text parameter consumed by the WACC Analyst when inferring market cost of debt)."
+    value_type: text
+    value: null
+    status: needs_verification
+    spec_reference: "Spec 26.4"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14801.htm"
+        title: "Lei nº 14.801/2024"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."

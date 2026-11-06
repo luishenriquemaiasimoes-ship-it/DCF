@@ -1,0 +1,98 @@
+# Lei 15.270/2025 — income tax changes: withholding on distributed profits, minimum tax on high income, JCP. Spec 29.
+records:
+  - id: br.tax.lei15270.dividend_withholding.resident_individual_rate@pending
+    key: br.tax.lei15270.dividend_withholding.resident_individual_rate
+    jurisdiction: BR
+    description: "Withholding income tax rate on profits/dividends paid to Brazil-resident individuals above the monthly threshold."
+    value_type: rate
+    value: null
+    status: needs_verification
+    spec_reference: "Spec 29 (JCP as sourced parameter); affects FCFE/DDM shareholder-level analysis"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm"
+        title: "Lei nº 15.270/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lei15270.dividend_withholding.monthly_threshold@pending
+    key: br.tax.lei15270.dividend_withholding.monthly_threshold
+    jurisdiction: BR
+    description: "Monthly threshold (per paying entity, per beneficiary) above which withholding applies; currency BRL."
+    value_type: amount
+    value: null
+    status: needs_verification
+    spec_reference: "Spec 29 (JCP as sourced parameter); affects FCFE/DDM shareholder-level analysis"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm"
+        title: "Lei nº 15.270/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lei15270.dividend_withholding.effective_date@pending
+    key: br.tax.lei15270.dividend_withholding.effective_date
+    jurisdiction: BR
+    description: "Date from which the withholding applies, and transitional treatment of profits computed through 2025."
+    value_type: text
+    value: null
+    status: needs_verification
+    spec_reference: "Spec 29 (JCP as sourced parameter); affects FCFE/DDM shareholder-level analysis"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm"
+        title: "Lei nº 15.270/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lei15270.dividend_withholding.non_resident_rate@pending
+    key: br.tax.lei15270.dividend_withholding.non_resident_rate
+    jurisdiction: BR
+    description: "Withholding rate on profits/dividends remitted to non-residents."
+    value_type: rate
+    value: null
+    status: needs_verification
+    spec_reference: "Spec 29 (JCP as sourced parameter); affects FCFE/DDM shareholder-level analysis"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm"
+        title: "Lei nº 15.270/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lei15270.minimum_tax_high_income.schedule@pending
+    key: br.tax.lei15270.minimum_tax_high_income.schedule
+    jurisdiction: BR
+    description: "Minimum income tax on high-income individuals: thresholds and rate schedule, and credit for corporate-level tax."
+    value_type: text
+    value: null
+    status: needs_verification
+    spec_reference: "Spec 29 (JCP as sourced parameter); affects FCFE/DDM shareholder-level analysis"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm"
+        title: "Lei nº 15.270/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lei15270.jcp.changes@pending
+    key: br.tax.lei15270.jcp.changes
+    jurisdiction: BR
+    description: "Any change to JCP (juros sobre capital próprio) deductibility, base, limit or withholding rate introduced by this law."
+    value_type: text
+    value: null
+    status: needs_verification
+    spec_reference: "Spec 29 (JCP as sourced parameter); affects FCFE/DDM shareholder-level analysis"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm"
+        title: "Lei nº 15.270/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."

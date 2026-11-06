@@ -1,0 +1,95 @@
+# Structural example pack (spec 27.3, 27.2). No benchmark figures: they require dated sources.
+id: toll_road_concession
+version: "0.1.0"
+name: Toll road concession
+description: >
+  Traffic x tariff revenue build for a toll road concession, with construction revenue
+  under the intangible-asset concession model flagged as pass-through for EBITDA.
+applicable_archetypes: [finite_life_asset, project_finance_spe]
+preferred_methods:
+  finite_life_asset: [dcf_fcff, dcf_fcfe]
+  project_finance_spe: [project_dcf]
+variables:
+  - id: traffic_light
+    name: Light vehicle traffic
+    description: Paying light vehicles in the period.
+    category: operational
+    unit: {dimension: physical, physical_unit: "vehicles", scale: 6}
+    role: input
+    materiality: critical
+  - id: traffic_heavy_axles
+    name: Heavy vehicle axles
+    description: Paying heavy-vehicle axles in the period.
+    category: operational
+    unit: {dimension: physical, physical_unit: "axles", scale: 6}
+    role: input
+    materiality: critical
+  - id: light_vehicle_multiplier
+    name: Light vehicle multiplier
+    description: Equivalent-vehicle factor per light vehicle, per the concession contract.
+    category: regulatory
+    unit: {dimension: dimensionless}
+    role: input
+    materiality: material
+  - id: equivalent_vehicles
+    name: Equivalent vehicles
+    description: Traffic in equivalent vehicles (light x multiplier + heavy axles).
+    category: operational
+    unit: {dimension: physical, physical_unit: "equivalent vehicles", scale: 6}
+    role: calculated
+    formula: {expression: "traffic_light * light_vehicle_multiplier + traffic_heavy_axles", inputs: [traffic_light, light_vehicle_multiplier, traffic_heavy_axles]}
+    materiality: critical
+  - id: tariff_per_equivalent_vehicle
+    name: Tariff per equivalent vehicle
+    description: Base tariff after contractual readjustment and performance factors.
+    category: regulatory
+    unit: {dimension: money_per_physical, currency: BRL, price_basis: nominal, physical_unit: "equivalent vehicles"}
+    role: input
+    materiality: critical
+  - id: toll_revenue
+    name: Toll revenue
+    description: Gross toll revenue.
+    category: operational
+    unit: {dimension: money, currency: BRL, price_basis: nominal, scale: 6}
+    role: calculated
+    formula: {expression: "equivalent_vehicles * tariff_per_equivalent_vehicle", inputs: [equivalent_vehicles, tariff_per_equivalent_vehicle]}
+    materiality: critical
+    statement_line: revenue
+  - id: construction_revenue
+    name: Construction revenue (concession model)
+    description: Revenue recognized for construction services; offset by construction cost at ~zero margin.
+    category: operational
+    unit: {dimension: money, currency: BRL, price_basis: nominal, scale: 6}
+    role: input
+    materiality: material
+    statement_line: revenue
+    ebitda_treatment: excluded_pass_through
+  - id: construction_cost
+    name: Construction cost (concession model)
+    description: Cost matching construction revenue.
+    category: operational
+    unit: {dimension: money, currency: BRL, price_basis: nominal, scale: 6}
+    role: input
+    materiality: material
+    statement_line: cogs
+    ebitda_treatment: excluded_pass_through
+kpis: [equivalent_vehicles, tariff_per_equivalent_vehicle]
+accounting_notes:
+  - standard_refs: ["IFRIC 12", "ICPC 01", "OCPC 05"]
+    topic: Construction revenue
+    treatment: Exclude construction revenue and cost from Adjusted EBITDA; value on operating cash flows.
+  - standard_refs: ["IFRIC 12", "ICPC 01"]
+    topic: Concession intangible amortization
+    treatment: Amortize on the curve of economic benefits (often traffic), not straight-line; drives cash taxes.
+audit_checks:
+  - id: construction_margin_near_zero
+    severity: medium
+    description: Construction revenue should approximately equal construction cost (near-zero margin).
+    rule: "0.05 * construction_revenue - abs(construction_revenue - construction_cost)"
+data_sources:
+  - name: ANTT / ARTESP traffic statistics
+    covers: [traffic_light, traffic_heavy_axles]
+    licensing_verified: false
+  - name: Concession contract and PER
+    covers: [light_vehicle_multiplier, tariff_per_equivalent_vehicle]
+    licensing_verified: false

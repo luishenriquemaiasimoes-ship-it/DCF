@@ -1,0 +1,87 @@
+# Section 29 base corporate income tax parameters. The spec states figures; they are kept as
+# spec_reference text and must be verified against current law before getting a value.
+records:
+  - id: br.tax.irpj.base_rate@pending
+    key: br.tax.irpj.base_rate
+    jurisdiction: BR
+    description: "IRPJ base rate under Lucro Real."
+    value_type: rate
+    value: null
+    status: needs_verification
+    spec_reference: "Spec 29: 15%"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/l9249.htm"
+        title: "Lei nº 9.249/1995 (current consolidated text)"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: not_attempted
+  - id: br.tax.irpj.surcharge_rate@pending
+    key: br.tax.irpj.surcharge_rate
+    jurisdiction: BR
+    description: "IRPJ surcharge (adicional) rate above the annual threshold."
+    value_type: rate
+    value: null
+    status: needs_verification
+    spec_reference: "Spec 29: 10% above the annual threshold"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/l9249.htm"
+        title: "Lei nº 9.249/1995 (current consolidated text)"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: not_attempted
+  - id: br.tax.irpj.surcharge_annual_threshold@pending
+    key: br.tax.irpj.surcharge_annual_threshold
+    jurisdiction: BR
+    description: "Annual taxable-income threshold above which the IRPJ surcharge applies (BRL)."
+    value_type: amount
+    value: null
+    status: needs_verification
+    spec_reference: "Spec 29: 'annual threshold' (no figure stated)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/l9249.htm"
+        title: "Lei nº 9.249/1995 (current consolidated text)"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: not_attempted
+  - id: br.tax.csll.standard_rate@pending
+    key: br.tax.csll.standard_rate
+    jurisdiction: BR
+    description: "CSLL standard rate for non-financial companies."
+    value_type: rate
+    value: null
+    status: needs_verification
+    spec_reference: "Spec 29: 9%"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/l7689.htm"
+        title: "Lei nº 7.689/1988 (current consolidated text)"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: not_attempted
+  - id: br.tax.tax_losses.annual_offset_limit@pending
+    key: br.tax.tax_losses.annual_offset_limit
+    jurisdiction: BR
+    description: "Maximum share of taxable income that tax loss carryforwards may offset per year."
+    value_type: rate
+    value: null
+    status: needs_verification
+    spec_reference: "Spec 29: 30%, no expiry"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/l9065.htm"
+        title: "Lei nº 9.065/1995 (current consolidated text)"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: not_attempted
+  - id: br.tax.marginal_rate.lucro_real@pending
+    key: br.tax.marginal_rate.lucro_real
+    jurisdiction: BR
+    description: "Combined marginal IRPJ+CSLL rate used to relever beta."
+    value_type: rate
+    value: null
+    status: needs_verification
+    spec_reference: "Spec 26.2: 34% (IRPJ 25% + CSLL 9%) — derived; verify components"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/l9249.htm"
+        title: "Lei nº 9.249/1995 (current consolidated text)"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: not_attempted

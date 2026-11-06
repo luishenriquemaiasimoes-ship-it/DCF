@@ -1,0 +1,579 @@
+# Lei Complementar 214/2025 — IBS/CBS (consumption tax reform, EC 132/2023). Spec 29.
+# One record per year and tax so the engine can look up the schedule by date. All values pending verification.
+records:
+  - id: br.tax.lc214.cbs_rate@2026
+    key: br.tax.lc214.cbs_rate
+    jurisdiction: BR
+    description: "CBS rate (or test rate) applicable in 2026."
+    value_type: rate
+    value: null
+    valid_from: "2026-01-01"
+    valid_to: "2026-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.ibs_rate@2026
+    key: br.tax.lc214.ibs_rate
+    jurisdiction: BR
+    description: "IBS rate (or test rate) applicable in 2026."
+    value_type: rate
+    value: null
+    valid_from: "2026-01-01"
+    valid_to: "2026-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.pis_cofins_status@2026
+    key: br.tax.lc214.pis_cofins_status
+    jurisdiction: BR
+    description: "Status of PIS/COFINS in 2026 (charged, offset, or extinguished)."
+    value_type: text
+    value: null
+    valid_from: "2026-01-01"
+    valid_to: "2026-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.icms_iss_reduction@2026
+    key: br.tax.lc214.icms_iss_reduction
+    jurisdiction: BR
+    description: "Proportion by which ICMS and ISS rates are reduced in 2026 under the transition."
+    value_type: rate
+    value: null
+    valid_from: "2026-01-01"
+    valid_to: "2026-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.cbs_rate@2027
+    key: br.tax.lc214.cbs_rate
+    jurisdiction: BR
+    description: "CBS rate (or test rate) applicable in 2027."
+    value_type: rate
+    value: null
+    valid_from: "2027-01-01"
+    valid_to: "2027-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.ibs_rate@2027
+    key: br.tax.lc214.ibs_rate
+    jurisdiction: BR
+    description: "IBS rate (or test rate) applicable in 2027."
+    value_type: rate
+    value: null
+    valid_from: "2027-01-01"
+    valid_to: "2027-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.pis_cofins_status@2027
+    key: br.tax.lc214.pis_cofins_status
+    jurisdiction: BR
+    description: "Status of PIS/COFINS in 2027 (charged, offset, or extinguished)."
+    value_type: text
+    value: null
+    valid_from: "2027-01-01"
+    valid_to: "2027-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.icms_iss_reduction@2027
+    key: br.tax.lc214.icms_iss_reduction
+    jurisdiction: BR
+    description: "Proportion by which ICMS and ISS rates are reduced in 2027 under the transition."
+    value_type: rate
+    value: null
+    valid_from: "2027-01-01"
+    valid_to: "2027-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.cbs_rate@2028
+    key: br.tax.lc214.cbs_rate
+    jurisdiction: BR
+    description: "CBS rate (or test rate) applicable in 2028."
+    value_type: rate
+    value: null
+    valid_from: "2028-01-01"
+    valid_to: "2028-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.ibs_rate@2028
+    key: br.tax.lc214.ibs_rate
+    jurisdiction: BR
+    description: "IBS rate (or test rate) applicable in 2028."
+    value_type: rate
+    value: null
+    valid_from: "2028-01-01"
+    valid_to: "2028-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.pis_cofins_status@2028
+    key: br.tax.lc214.pis_cofins_status
+    jurisdiction: BR
+    description: "Status of PIS/COFINS in 2028 (charged, offset, or extinguished)."
+    value_type: text
+    value: null
+    valid_from: "2028-01-01"
+    valid_to: "2028-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.icms_iss_reduction@2028
+    key: br.tax.lc214.icms_iss_reduction
+    jurisdiction: BR
+    description: "Proportion by which ICMS and ISS rates are reduced in 2028 under the transition."
+    value_type: rate
+    value: null
+    valid_from: "2028-01-01"
+    valid_to: "2028-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.cbs_rate@2029
+    key: br.tax.lc214.cbs_rate
+    jurisdiction: BR
+    description: "CBS rate (or test rate) applicable in 2029."
+    value_type: rate
+    value: null
+    valid_from: "2029-01-01"
+    valid_to: "2029-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.ibs_rate@2029
+    key: br.tax.lc214.ibs_rate
+    jurisdiction: BR
+    description: "IBS rate (or test rate) applicable in 2029."
+    value_type: rate
+    value: null
+    valid_from: "2029-01-01"
+    valid_to: "2029-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.pis_cofins_status@2029
+    key: br.tax.lc214.pis_cofins_status
+    jurisdiction: BR
+    description: "Status of PIS/COFINS in 2029 (charged, offset, or extinguished)."
+    value_type: text
+    value: null
+    valid_from: "2029-01-01"
+    valid_to: "2029-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.icms_iss_reduction@2029
+    key: br.tax.lc214.icms_iss_reduction
+    jurisdiction: BR
+    description: "Proportion by which ICMS and ISS rates are reduced in 2029 under the transition."
+    value_type: rate
+    value: null
+    valid_from: "2029-01-01"
+    valid_to: "2029-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.cbs_rate@2030
+    key: br.tax.lc214.cbs_rate
+    jurisdiction: BR
+    description: "CBS rate (or test rate) applicable in 2030."
+    value_type: rate
+    value: null
+    valid_from: "2030-01-01"
+    valid_to: "2030-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.ibs_rate@2030
+    key: br.tax.lc214.ibs_rate
+    jurisdiction: BR
+    description: "IBS rate (or test rate) applicable in 2030."
+    value_type: rate
+    value: null
+    valid_from: "2030-01-01"
+    valid_to: "2030-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.pis_cofins_status@2030
+    key: br.tax.lc214.pis_cofins_status
+    jurisdiction: BR
+    description: "Status of PIS/COFINS in 2030 (charged, offset, or extinguished)."
+    value_type: text
+    value: null
+    valid_from: "2030-01-01"
+    valid_to: "2030-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.icms_iss_reduction@2030
+    key: br.tax.lc214.icms_iss_reduction
+    jurisdiction: BR
+    description: "Proportion by which ICMS and ISS rates are reduced in 2030 under the transition."
+    value_type: rate
+    value: null
+    valid_from: "2030-01-01"
+    valid_to: "2030-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.cbs_rate@2031
+    key: br.tax.lc214.cbs_rate
+    jurisdiction: BR
+    description: "CBS rate (or test rate) applicable in 2031."
+    value_type: rate
+    value: null
+    valid_from: "2031-01-01"
+    valid_to: "2031-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.ibs_rate@2031
+    key: br.tax.lc214.ibs_rate
+    jurisdiction: BR
+    description: "IBS rate (or test rate) applicable in 2031."
+    value_type: rate
+    value: null
+    valid_from: "2031-01-01"
+    valid_to: "2031-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.pis_cofins_status@2031
+    key: br.tax.lc214.pis_cofins_status
+    jurisdiction: BR
+    description: "Status of PIS/COFINS in 2031 (charged, offset, or extinguished)."
+    value_type: text
+    value: null
+    valid_from: "2031-01-01"
+    valid_to: "2031-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.icms_iss_reduction@2031
+    key: br.tax.lc214.icms_iss_reduction
+    jurisdiction: BR
+    description: "Proportion by which ICMS and ISS rates are reduced in 2031 under the transition."
+    value_type: rate
+    value: null
+    valid_from: "2031-01-01"
+    valid_to: "2031-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.cbs_rate@2032
+    key: br.tax.lc214.cbs_rate
+    jurisdiction: BR
+    description: "CBS rate (or test rate) applicable in 2032."
+    value_type: rate
+    value: null
+    valid_from: "2032-01-01"
+    valid_to: "2032-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.ibs_rate@2032
+    key: br.tax.lc214.ibs_rate
+    jurisdiction: BR
+    description: "IBS rate (or test rate) applicable in 2032."
+    value_type: rate
+    value: null
+    valid_from: "2032-01-01"
+    valid_to: "2032-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.pis_cofins_status@2032
+    key: br.tax.lc214.pis_cofins_status
+    jurisdiction: BR
+    description: "Status of PIS/COFINS in 2032 (charged, offset, or extinguished)."
+    value_type: text
+    value: null
+    valid_from: "2032-01-01"
+    valid_to: "2032-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.icms_iss_reduction@2032
+    key: br.tax.lc214.icms_iss_reduction
+    jurisdiction: BR
+    description: "Proportion by which ICMS and ISS rates are reduced in 2032 under the transition."
+    value_type: rate
+    value: null
+    valid_from: "2032-01-01"
+    valid_to: "2032-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.cbs_rate@2033
+    key: br.tax.lc214.cbs_rate
+    jurisdiction: BR
+    description: "CBS rate (or test rate) applicable in 2033."
+    value_type: rate
+    value: null
+    valid_from: "2033-01-01"
+    valid_to: "2033-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.ibs_rate@2033
+    key: br.tax.lc214.ibs_rate
+    jurisdiction: BR
+    description: "IBS rate (or test rate) applicable in 2033."
+    value_type: rate
+    value: null
+    valid_from: "2033-01-01"
+    valid_to: "2033-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.pis_cofins_status@2033
+    key: br.tax.lc214.pis_cofins_status
+    jurisdiction: BR
+    description: "Status of PIS/COFINS in 2033 (charged, offset, or extinguished)."
+    value_type: text
+    value: null
+    valid_from: "2033-01-01"
+    valid_to: "2033-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
+  - id: br.tax.lc214.icms_iss_reduction@2033
+    key: br.tax.lc214.icms_iss_reduction
+    jurisdiction: BR
+    description: "Proportion by which ICMS and ISS rates are reduced in 2033 under the transition."
+    value_type: rate
+    value: null
+    valid_from: "2033-01-01"
+    valid_to: "2033-12-31"
+    status: needs_verification
+    spec_reference: "Spec 29 (CBS/IBS transition schedule; model transition years explicitly)"
+    sources:
+      - url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        title: "Lei Complementar nº 214/2025"
+        issuer: "Presidência da República — Planalto"
+        is_official: true
+        retrieval_status: failed
+        attempted_at: "2026-11-06T12:54:41Z"
+        retrieval_note: "Fetch attempted from the build session on 2026-11-06; host refused by the session network proxy (planalto.gov.br not allowlisted). Not retrieved."
